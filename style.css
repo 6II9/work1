@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,a:active, a:hover, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+button{
+    padding: 12px 16px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar{
+    position: fixed;
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 6px;
+    padding: 30px 0;
+}
+
+textarea{
+    transition: .9s;
+}
+
+form{
+    display: flex;
+    width: 350px;
+    gap: 20px;
+    border: 4px solid burlywood;
+    border-radius: 5px;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 4px 4px 16px #000;
+}
+input[type=submit]{
+    cursor: pointer;
+}
+.reg-btn{
+    cursor: pointer;
+}
+.registration{
+    position: fixed;
+    top: -350px;
+    left: calc(50vw - 175px);
+    transition: 1s ease-out;
+}
+.registration_active{
+    top: 200px;
+}
